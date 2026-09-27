@@ -1,0 +1,20 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+<p>Notes, fun facts, and miscellanea.</p>
+
+{% if site.posts.size > 0 %}
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li>
+    <p class="post-meta">{{ post.date | date: "%-d %B %Y" }}</p>
+    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="empty">Nothing here yet — coming soon.</p>
+{% endif %}

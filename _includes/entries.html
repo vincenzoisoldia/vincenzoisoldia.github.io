@@ -1,0 +1,22 @@
+{% comment %}
+  Renders a dated list. Usage: {% include entries.html items=site.data.talks %}
+  Each item: date, title, event or where, detail, slides, poster, notes.
+{% endcomment %}
+<ul class="entries">
+  {% for e in include.items %}
+  <li class="entry">
+    <span class="entry-date">{{ e.date }}</span>
+    <div>
+      <span class="entry-title">{{ e.title }}</span>{% if e.event or e.where %}<span class="entry-detail">, {{ e.event | default: e.where }}</span>{% endif %}
+      {% if e.slides or e.poster or e.notes %}
+      <span class="entry-links">
+        {% if e.slides %}<a href="{{ e.slides | relative_url }}">slides</a>{% endif %}
+        {% if e.poster %}<a href="{{ e.poster | relative_url }}">poster</a>{% endif %}
+        {% if e.notes %}<a href="{{ e.notes | relative_url }}">notes</a>{% endif %}
+      </span>
+      {% endif %}
+      {% if e.detail %}<p class="entry-detail">{{ e.detail | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>

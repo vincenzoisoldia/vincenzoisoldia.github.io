@@ -1,0 +1,15 @@
+# Reading group (appare nella pagina Teaching).
+# Finché "name" è vuoto, la sezione non viene mostrata sul sito.
+#
+# Esempio:
+# name: Higher Teichmüller Theory Reading Group
+# description: A weekly reading group on ... We meet on Thursdays at 14:00 in room ...
+# meetings:
+#   - date: 16 Oct 2026
+#     topic: Hitchin components
+#     speaker: V. A. Isoldi
+#     notes: /files/teaching/reading-group/01-hitchin.pdf
+
+name: Teichmüller Theory Reading Group
+description: A reading group on Teichmüller theory. Time and place to be announced.
+meetings: []

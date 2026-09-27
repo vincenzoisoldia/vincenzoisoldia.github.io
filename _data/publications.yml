@@ -1,0 +1,19 @@
+# Pubblicazioni e preprint, dal più recente.
+# Campi: title, authors, arxiv (numero), status (facoltativo),
+#        journal (facoltativo), pdf (facoltativo, es. /files/papers/nome.pdf)
+
+- title: Secant varieties of flag varieties via Schur apolarity
+  authors: with A. Bernardi and S. Canino
+  arxiv: "2609.09301"
+  year: 2026
+
+- title: Stable Coexistence in Ecologies and Games
+  authors: with T. O. Çelik, I. Portakal, and G. Zucal
+  arxiv: "2609.09286"
+  year: 2026
+
+- title: Neural Point-Forms
+  authors: with J. Hume, E. S. Ivshina, K. Maggs, P. Misof, and B. Trentini
+  arxiv: "2605.15524"
+  year: 2026
+  status: Submitted

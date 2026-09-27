@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<article class="page post">
+  <p class="post-meta"><a href="{{ '/blog/' | relative_url }}">Blog</a> · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></p>
+  <h1 class="page-title">{{ page.title }}</h1>
+  {{ content }}
+</article>

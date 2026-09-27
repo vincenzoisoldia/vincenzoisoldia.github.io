@@ -1,0 +1,87 @@
+# Corsi, raggruppati per anno accademico (dal più recente).
+#
+# Per aggiungere materiale (es. un problem set):
+#   1. metti il PDF nella cartella files/teaching/
+#   2. aggiungi sotto al corso:
+#        materials:
+#          - title: Problem set 1
+#            file: /files/teaching/nome-del-file.pdf
+#            solutions: /files/teaching/nome-soluzioni.pdf   (facoltativo)
+
+- year: 2025/2026
+  courses:
+    - title: Mathematical Analysis 3
+      where: Department of Physics, University of Trento
+      instructor: Prof. V. Agostiniani
+      materials_note: Weekly exercise sheets (in Italian), written with Adriano Breggia.
+      materials:
+        - title: Sheet 1 (2 Oct 2025)
+          file: /files/teaching/analysis-3/sheet-1.pdf
+          solutions: /files/teaching/analysis-3/sheet-1-solutions.pdf
+        - title: Sheet 2 (9 Oct 2025)
+          file: /files/teaching/analysis-3/sheet-2.pdf
+          solutions: /files/teaching/analysis-3/sheet-2-solutions.pdf
+        - title: Sheet 3 (16 Oct 2025)
+          file: /files/teaching/analysis-3/sheet-3.pdf
+          solutions: /files/teaching/analysis-3/sheet-3-solutions.pdf
+        - title: Sheet 4 (23 Oct 2025)
+          file: /files/teaching/analysis-3/sheet-4.pdf
+          solutions: /files/teaching/analysis-3/sheet-4-solutions.pdf
+        - title: Sheet 5 (30 Oct 2025)
+          file: /files/teaching/analysis-3/sheet-5.pdf
+          solutions: /files/teaching/analysis-3/sheet-5-solutions.pdf
+        - title: Sheet 6 (6 Nov 2025)
+          file: /files/teaching/analysis-3/sheet-6.pdf
+          solutions: /files/teaching/analysis-3/sheet-6-solutions.pdf
+        - title: Sheet 7 (13 Nov 2025)
+          file: /files/teaching/analysis-3/sheet-7.pdf
+          solutions: /files/teaching/analysis-3/sheet-7-solutions.pdf
+        - title: Sheet 8 (20 Nov 2025)
+          file: /files/teaching/analysis-3/sheet-8.pdf
+          solutions: /files/teaching/analysis-3/sheet-8-solutions.pdf
+
+    - title: Geometry and Linear Algebra
+      where: Department of Information Engineering and Computer Science, University of Trento
+      instructor: Prof. A. Bernardi
+      note: Taught in English
+      materials_note: MATLAB lab sessions, written with Francesco Giuseppe De Vitis.
+      materials:
+        - title: MATLAB session 1
+          file: /files/teaching/geometry-linear-algebra/matlab-session-1.pdf
+        - title: MATLAB session 2
+          file: /files/teaching/geometry-linear-algebra/matlab-session-2.pdf
+        - title: MATLAB session 3
+          file: /files/teaching/geometry-linear-algebra/matlab-session-3.pdf
+        - title: MATLAB session 4
+          file: /files/teaching/geometry-linear-algebra/matlab-session-4.pdf
+        - title: MATLAB session 5
+          file: /files/teaching/geometry-linear-algebra/matlab-session-5.pdf
+        - title: MATLAB session 6
+          file: /files/teaching/geometry-linear-algebra/matlab-session-6.pdf
+          extra: /files/teaching/geometry-linear-algebra/matlab-session-6-addendum.pdf
+          extra_label: addendum
+        - title: MATLAB session 7
+          file: /files/teaching/geometry-linear-algebra/matlab-session-7.pdf
+        - title: MATLAB session 8
+          file: /files/teaching/geometry-linear-algebra/matlab-session-8.pdf
+        - title: MATLAB session 9
+          file: /files/teaching/geometry-linear-algebra/matlab-session-9.pdf
+
+- year: 2024/2025
+  courses:
+    - title: Geometry A
+      where: Department of Mathematics, University of Trento
+      instructor: Prof. E. L. Solá Conde
+
+    - title: Geometry and Linear Algebra
+      where: Department of Information Engineering and Computer Science, University of Trento
+      instructor: Prof. E. Postinghel
+
+    - title: Geometry and Linear Algebra
+      where: Department of Information Engineering and Computer Science, University of Trento
+      instructor: Profs. G. Occhetta and E. Postinghel
+      note: Taught in English
+
+    - title: Mathematics and Statistics 1
+      where: Department of Biology, University of Trento
+      instructor: Profs. A. Bernardi and E. Ballico

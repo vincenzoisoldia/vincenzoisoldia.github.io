@@ -1,0 +1,87 @@
+# Attività, divise in sezioni. Ogni voce: date, title, where, detail (facoltativo).
+# "detail" accetta Markdown, es. [testo del link](https://...).
+
+conferences:
+  - date: Oct 2025
+    title: "Masterclass: Tensors and their Applications"
+    where: University of Trento
+
+  - date: Aug 2025
+    title: Scuola Matematica Interuniversitaria
+    where: University of Perugia
+    detail: Courses in Algebraic Geometry (Prof. Brian Harbourne) and Complex Analysis (Prof. Chiara de Fabritiis).
+
+  - date: Jul 2025
+    title: London Geometry and Machine Learning
+    where: Imperial College London
+    detail: Selected participant, mentored by Dr. Kelly Maggs.
+
+  - date: Jan 2025
+    title: Apolarity in Varsavia
+    where: Institute of Mathematics of the Polish Academy of Sciences
+    detail: Invited by Prof. Jarosław Buczyński. Co-authored the [workshop notes](https://www.mimuw.edu.pl/~jabu/conf/2025/resources/AIVAR_notes_v2026_04.pdf) with O. R. Fité under the supervision of Dr. S. Canino.
+
+  - date: Nov 2024
+    title: "Masterclass: Tensor Decompositions in Multi-Omics"
+    where: University of Trento
+
+  - date: Jul 2024
+    title: 9th European Congress of Mathematics
+    where: Seville
+
+  - date: Oct 2023
+    title: "Masterclass: Algebraic Vision and Multifocal Tensors"
+    where: University of Trento
+
+outreach:
+  - date: Mar 2026
+    title: Il giro del mondo in 80 Prodotti
+    where: Trento
+    detail: Co-organized interactive booths on the history of multiplication for Pi Day.
+
+  - date: Oct 2025
+    title: TensorDay 2025
+    where: University of Trento
+    detail: Co-organized with the TensorDec Laboratory.
+
+  - date: Apr 2025
+    title: "Fuori dall'ombra: Panchine Rosse"
+    where: University of Trento
+    detail: Co-organized the *Matilda effect* section.
+
+  - date: Dec 2024
+    title: TensorDay 2024
+    where: University of Trento
+    detail: Co-organized with the TensorDec Laboratory.
+
+awards:
+  - date: "2026"
+    title: Pearcy/Heep Graduate Mathematics Fellowship
+    where: Texas A&M University
+
+  - date: "2026"
+    title: Pre-Doctoral Fellowship
+    where: Max Planck Institute for Mathematics in the Sciences
+
+  - date: "2026"
+    title: Pre-Doctoral Fellowship
+    where: Max Planck Institute of Molecular Cell Biology and Genetics
+
+  - date: "2018"
+    title: Scuola di Orientamento Universitario
+    where: SNS, Sant'Anna, and IUSS
+    detail: Selected among the top 230 Italian students.
+
+  - date: "2016"
+    title: ITACA Scholarship
+    where: INPS
+    detail: Six-month study-abroad scholarship, 1st place nationally.
+
+  - date: "2016"
+    title: WEP Scholarship
+    where: WEP Italy
+
+  - date: "2013"
+    title: XXIII Olympiad of Logical and Mathematical Games
+    where: Gioiamathesis
+    detail: 2nd place.

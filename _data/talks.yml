@@ -1,0 +1,50 @@
+# Talk e poster, dal più recente.
+# Campi: date, title, event, slides / poster / notes (facoltativi).
+# Le slide possono essere un link (es. Google Drive) oppure un PDF
+# messo nella cartella files/talks/, es.  slides: /files/talks/tensors.pdf
+
+- date: Mar 2026
+  title: "Flag varieties: from minimal orbits to a dual Terracini lemma"
+  event: TensorDec Lab Seminars, University of Trento
+
+- date: Feb 2026
+  title: Impossible ecologies via Grassmannians
+  event: Coffee Chalk Talks, MPI-CBG
+
+- date: Feb 2026
+  title: Secant varieties of flag varieties
+  event: PhD Selection Week, MPI-CBG
+  poster: /files/talks/2026-02-secant-varieties-poster.pdf
+  slides: /files/talks/2026-02-secant-varieties-lightning-talk.pdf
+
+- date: Feb 2026
+  title: Tensors and their geometry
+  event: Mathematical Structures and Applications Group Seminars, MPI-CBG
+  slides: /files/talks/2026-02-tensors-and-their-geometry.pdf
+
+- date: Jul 2025
+  title: Geometric constrained variational calculus
+  event: Seminar for Differential Geometric Methods, University of Trento
+
+- date: Jul 2025
+  title: Blow-up of $\mathbb{P}^2$ and minimal model program
+  event: Seminar for Algebraic Geometry II, University of Trento
+
+- date: Oct 2024
+  title: Noether's normalization and homotopy continuation
+  event: Seminar for Computational Algebra, University of Trento
+  slides: /files/talks/2024-10-noether-normalization.pdf
+
+- date: Sep 2024
+  title: The algebraic geometry of tensor decomposition
+  event: Baby Steps Beyond the Horizon, Będlewo
+  slides: /files/talks/2024-09-tensor-decomposition.pdf
+
+- date: Jun 2024
+  title: Affine toric geometry
+  event: Seminar for Toric Geometry, University of Trento
+
+- date: Feb 2024
+  title: Pattern formation in a model of acute inflammation
+  event: Seminar for Mathematical Biology, University of Trento
+  slides: /files/talks/2024-02-acute-inflammation.pdf
