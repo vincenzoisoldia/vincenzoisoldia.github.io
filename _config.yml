@@ -27,10 +27,10 @@ links:
     url: /files/cv.pdf
   - name: ORCID
     url: https://orcid.org/0009-0005-3342-8809
-  # - name: Google Scholar
-  #   url: https://scholar.google.com/citations?user=...
-  # - name: LinkedIn
-  #   url: https://www.linkedin.com/in/...
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=Xwz2UnoAAAAJ&hl=en
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/vincenzoantonioisoldi
 
 # Menu in alto, nell'ordine in cui appare.
 nav:
