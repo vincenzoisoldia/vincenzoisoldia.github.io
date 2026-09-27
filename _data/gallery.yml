@@ -1,0 +1,10 @@
+# Foto e immagini della pagina Gallery (dalla più recente).
+# 1. metti l'immagine in images/gallery/
+# 2. aggiungi una voce qui sotto:
+#
+# - image: /images/gallery/bedlewo-2024.jpg
+#   caption: Baby Steps Beyond the Horizon, Będlewo
+#   date: Sep 2024
+#
+# Finché la lista è vuota, la pagina non compare nel menu.
+[]

@@ -31,6 +31,8 @@ links:
     url: https://scholar.google.com/citations?user=Xwz2UnoAAAAJ&hl=en
   - name: LinkedIn
     url: https://www.linkedin.com/in/vincenzoantonioisoldi
+  - name: Book a meeting
+    url: https://scheduler.zoom.us/vincenzoantonioisoldi/meeting
 
 # Menu in alto, nell'ordine in cui appare.
 nav:
@@ -44,6 +46,9 @@ nav:
     url: /teaching/
   - title: Blog
     url: /blog/
+  - title: Gallery
+    url: /gallery/
+    only_if_data: gallery   # appare nel menu solo quando _data/gallery.yml ha almeno una foto
   - title: CV
     url: /files/cv.pdf
 

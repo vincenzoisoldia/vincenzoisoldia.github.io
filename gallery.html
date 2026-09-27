@@ -1,0 +1,19 @@
+---
+layout: page
+title: Gallery
+permalink: /gallery/
+---
+<p>Mathematical pictures, conferences, and other moments.</p>
+
+{% if site.data.gallery.size > 0 %}
+<div class="gallery">
+  {% for g in site.data.gallery %}
+  <figure>
+    <a href="{{ g.image | relative_url }}"><img src="{{ g.image | relative_url }}" alt="{{ g.caption }}" loading="lazy"></a>
+    <figcaption>{{ g.caption }}{% if g.date %} <span class="gallery-date">· {{ g.date }}</span>{% endif %}</figcaption>
+  </figure>
+  {% endfor %}
+</div>
+{% else %}
+<p class="empty">Nothing here yet — coming soon.</p>
+{% endif %}
