@@ -5,10 +5,6 @@ permalink: /research/
 math: true
 ---
 
-My Ph.D. work is in geometry, with a focus on Anosov representations and (higher) Teichmüller theory.
-
-Before that, I worked on secant varieties of flag varieties through Schur apolarity, on algebraic and geometric methods for the dynamics of interacting species and games, and on geometric methods for learning from point clouds.
-
 ## Publications and preprints
 
 <ol class="pubs" reversed>
