@@ -1,7 +1,46 @@
-# Attività, divise in sezioni. Ogni voce: date, title, where, detail (facoltativo).
+# Attività, divise in sezioni. Ogni voce: date, title, where, detail e status (facoltativi).
+# status mostra un'etichetta accanto al titolo, es.  status: Upcoming
 # "detail" accetta Markdown, es. [testo del link](https://...).
 
 conferences:
+  - date: Nov 2026
+    title: Mini-Workshop on Riemann Surfaces
+    where: MPI MiS
+    status: Upcoming
+
+  - date: Nov 2026
+    title: Invitation to AI for Math Workshop
+    where: MPI MiS
+    status: Upcoming
+
+  - date: Sep 2026
+    title: Quasi-flats of intermediate dimension in higher rank
+    where: MPI MiS
+
+  - date: Jun 2026
+    title: Workshop on Infinite-Dimensional Geometry
+    where: MPI MiS
+
+  - date: May 2026
+    title: Character varieties under the lens of Hodge theory
+    where: MPI MiS
+
+  - date: Apr 2026
+    title: AI in Math
+    where: MPI MiS
+
+  - date: Mar 2026
+    title: GROW@Dresden 2026
+    where: TU Dresden
+
+  - date: Feb 2026
+    title: 3rd MPI (Dresden + Leipzig) Day
+    where: MPI MiS
+
+  - date: Jan 2026
+    title: Algebraic Curves in January
+    where: MPI MiS
+
   - date: Oct 2025
     title: "Masterclass: Tensors and their Applications"
     where: University of Trento
