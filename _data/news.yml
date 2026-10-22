@@ -1,0 +1,22 @@
+# News (appaiono nella pagina About, sotto il testo), dal più recente.
+# Campi: date, text. "text" accetta Markdown, es. [testo del link](https://...)
+# oppure un link a una pagina del sito, es. [Teaching & co.](/teaching/).
+
+- date: Oct 2026
+  text: >-
+    Together with Laura Lankers, I started a reading group on Teichmüller theory.
+    More on the [Teaching & co.](/teaching/) page.
+
+- date: Sep 2026
+  text: >-
+    New preprint out! *Stable Coexistence in Ecologies and Games*,
+    you can find it [here](https://arxiv.org/abs/2609.09286).
+
+- date: Sep 2026
+  text: >-
+    New preprint out! *Secant varieties of flag varieties via Schur apolarity*,
+    you can find it [here](https://arxiv.org/abs/2609.09301).
+
+- date: Aug 2026
+  text: >-
+    Started my Ph.D. at the MPI MiS, under the supervision of Prof. Dr. Anna Wienhard.

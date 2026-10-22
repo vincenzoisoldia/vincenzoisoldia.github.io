@@ -22,6 +22,18 @@ layout: default
 {{ content }}
 </div>
 
+{% if site.data.news.size > 0 %}
+<h2>News</h2>
+<ul class="entries">
+  {% for n in site.data.news %}
+  <li class="entry">
+    <span class="entry-date">{{ n.date }}</span>
+    <div>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
 {% assign posts = site.posts | slice: 0, 3 %}
 {% if posts.size > 0 %}
 <h2>Latest from the blog</h2>
