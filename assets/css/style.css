@@ -131,7 +131,7 @@ code {
 .site-nav a:hover { color: var(--accent); text-decoration: none; }
 .site-nav a[aria-current="page"] { color: var(--text); font-weight: 600; }
 
-main { padding-top: 3.5rem; padding-bottom: 3rem; }
+main.wrap { padding-top: 1.75rem; padding-bottom: 3rem; }
 
 .site-footer {
   border-top: 1px solid var(--rule);
