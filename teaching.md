@@ -18,11 +18,13 @@ permalink: /teaching/
     <div>
       <span class="entry-title">{{ m.topic }}</span>{% if m.speaker %}<span class="entry-detail">, {{ m.speaker }}</span>{% endif %}
       {% if m.notes %}<span class="entry-links"><a href="{{ m.notes | relative_url }}">notes</a></span>{% endif %}
+      {% if m.note %}<p class="entry-detail">{{ m.note }}</p>{% endif %}
     </div>
   </li>
   {% endfor %}
 </ul>
 {% endif %}
+{% if rg.closing %}<p class="entry-detail">{{ rg.closing }}</p>{% endif %}
 {% endif %}
 
 ## Teaching assistant

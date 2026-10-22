@@ -1,15 +1,55 @@
 # Reading group (appare nella pagina Teaching).
 # Finché "name" è vuoto, la sezione non viene mostrata sul sito.
 #
+# Ogni incontro: date, topic, speaker, e opzionalmente note (es. orario diverso)
+# e notes (link a un PDF). "closing" è una riga mostrata sotto l'elenco.
+#
 # Esempio:
-# name: Higher Teichmüller Theory Reading Group
-# description: A weekly reading group on ... We meet on Thursdays at 14:00 in room ...
-# meetings:
 #   - date: 16 Oct 2026
 #     topic: Hitchin components
 #     speaker: V. A. Isoldi
+#     note: Exceptionally at 11:00.
 #     notes: /files/teaching/reading-group/01-hitchin.pdf
 
 name: Teichmüller Theory Reading Group
-description: A reading group on Teichmüller theory. Time and place to be announced.
-meetings: []
+description: >-
+  We are working through Bram Petri's
+  [lecture notes on Teichmüller theory](https://webusers.imj-prg.fr/~bram.petri/t_tt/notes_250331.pdf).
+  We meet on Mondays at 10:30 in A3 01 (Sophus-Lie room).
+  Organized by Vincenzo Antonio Isoldi and Laura Lankers.
+meetings:
+  - date: 5 Oct 2026
+    topic: Reminder on surfaces
+    speaker: Vincenzo Antonio Isoldi
+  - date: 12 Oct 2026
+    topic: Quotients, metrics and conformal structures
+    speaker: Laura Lankers and Vincenzo Antonio Isoldi
+  - date: 19 Oct 2026
+    topic: The Teichmüller space of the torus
+    speaker: Juan Sebastian Numpaque Roa
+    note: Exceptionally starting at 11:00.
+  - date: 26 Oct 2026
+    topic: Markings, mapping class groups and moduli spaces
+    speaker: Perrine Jouteur
+  - date: 9 Nov 2026
+    topic: Beltrami differentials and a topology on Teichmüller space (part I)
+    speaker: Joaquín Lejtreger
+  - date: 16 Nov 2026
+    topic: Beltrami differentials and a topology on Teichmüller space (part II)
+    speaker: Michael Bersudsky
+  - date: 23 Nov 2026
+    topic: Measured foliations and quadratic differentials
+    speaker: Vincenzo Antonio Isoldi
+  - date: 30 Nov 2026
+    topic: Quadratic differentials, Teichmüller mappings, hyperbolic geometry
+    speaker: Speaker to be announced
+  - date: 7 Dec 2026
+    topic: Pants decompositions and annuli
+    speaker: Nat Kendal-Freedman
+  - date: 14 Dec 2026
+    topic: Fenchel–Nielsen coordinates
+    speaker: Vincenzo Antonio Isoldi
+  - date: 11 Jan 2027
+    topic: Teichmüller's theorem and the Nielsen–Thurston classification
+    speaker: Magdalina von Wunsch-Rolshoven
+closing: More sessions to be announced.
