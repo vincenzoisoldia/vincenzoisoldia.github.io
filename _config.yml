@@ -40,10 +40,10 @@ nav:
     url: /
   - title: Research
     url: /research/
-  - title: Activities
-    url: /activities/
   - title: Teaching & co.
     url: /teaching/
+  - title: Activities
+    url: /activities/
   - title: Blog
     url: /blog/
   - title: Gallery
