@@ -55,3 +55,13 @@ permalink: /teaching/
 {% endif %}
 {% if rg.closing %}<p class="entry-detail">{{ rg.closing }}</p>{% endif %}
 {% endif %}
+
+{% if site.data.external_courses.size > 0 %}
+## External courses
+
+{% for c in site.data.external_courses %}
+### {{ c.title }}
+
+{{ c.description | markdownify }}
+{% endfor %}
+{% endif %}
