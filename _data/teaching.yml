@@ -39,6 +39,18 @@
         - title: Sheet 8 (20 Nov 2025)
           file: /files/teaching/analysis-3/sheet-8.pdf
           solutions: /files/teaching/analysis-3/sheet-8-solutions.pdf
+        - title: Sheet 9 (27 Nov 2025)
+          file: /files/teaching/analysis-3/sheet-9.pdf
+          solutions: /files/teaching/analysis-3/sheet-9-solutions.pdf
+        - title: Sheet 10 (4 Dec 2025)
+          file: /files/teaching/analysis-3/sheet-10.pdf
+          solutions: /files/teaching/analysis-3/sheet-10-solutions.pdf
+        - title: Sheet 11 (12 Dec 2025)
+          file: /files/teaching/analysis-3/sheet-11.pdf
+          solutions: /files/teaching/analysis-3/sheet-11-solutions.pdf
+        - title: Sheet 12 (18 Dec 2025)
+          file: /files/teaching/analysis-3/sheet-12.pdf
+          solutions: /files/teaching/analysis-3/sheet-12-solutions.pdf
 
     - title: Geometry and Linear Algebra
       where: Department of Information Engineering and Computer Science, University of Trento
