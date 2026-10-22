@@ -164,7 +164,7 @@ main.wrap > :last-child > :last-child { margin-bottom: 0; }
 .intro-role a { color: inherit; }
 .intro-role a:hover { color: var(--accent); }
 .intro-hint {
-  margin: 0.6rem 0 0;
+  margin: 0.45rem 0 0;
   color: var(--muted);
   font-family: var(--sans);
   font-size: 0.8rem;
@@ -174,7 +174,7 @@ main.wrap > :last-child > :last-child { margin-bottom: 0; }
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem 1rem;
-  margin: 0.9rem 0 0;
+  margin: 0.7rem 0 0;
   padding: 0;
   list-style: none;
   font-family: var(--sans);
