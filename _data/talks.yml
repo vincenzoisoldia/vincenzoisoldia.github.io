@@ -1,7 +1,19 @@
 # Talk e poster, dal più recente.
-# Campi: date, title, event, slides / poster / notes (facoltativi).
+# Campi: date, title, event, slides / poster / notes / status (facoltativi).
 # Le slide possono essere un link (es. Google Drive) oppure un PDF
 # messo nella cartella files/talks/, es.  slides: /files/talks/tensors.pdf
+# status mostra un'etichetta accanto al titolo, es.  status: Upcoming
+# (da togliere dopo il talk).
+
+- date: Nov 2026
+  title: Stable coexistence in ecology and games
+  event: CSBD Math Seminar, MPI-CBG
+  status: Upcoming
+
+- date: Nov 2026
+  title: Stable coexistence in ecology and games
+  event: Seminar on Nonlinear Algebra, MPI MiS
+  status: Upcoming
 
 - date: Mar 2026
   title: "Flag varieties: from minimal orbits to a dual Terracini lemma"
