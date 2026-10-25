@@ -21,12 +21,10 @@ author:
 # Link mostrati sotto la foto nella pagina About.
 # Per aggiungerne uno: copia una riga e cambia nome e indirizzo.
 links:
-  - name: Email
-    url: mailto:isoldi@mis.mpg.de
   - name: CV
     url: /files/cv.pdf
-  - name: ORCID
-    url: https://orcid.org/0009-0005-3342-8809
+  - name: Email
+    url: mailto:isoldi@mis.mpg.de
   - name: Google Scholar
     url: https://scholar.google.com/citations?user=Xwz2UnoAAAAJ&hl=en
   - name: LinkedIn
@@ -49,8 +47,6 @@ nav:
   - title: Gallery
     url: /gallery/
     only_if_data: gallery   # appare nel menu solo quando _data/gallery.yml ha almeno una foto
-  - title: CV
-    url: /files/cv.pdf
 
 markdown: kramdown
 kramdown:
