@@ -159,6 +159,7 @@ main.wrap > :last-child > :last-child { margin-bottom: 0; }
   object-fit: cover;
   border-radius: 50%;
 }
+.intro-text { width: fit-content; }
 .intro-name { font-size: 1.9rem; margin: 0; }
 .intro-role { margin: 0.25rem 0 0; color: var(--muted); }
 .intro-role a { color: inherit; }
