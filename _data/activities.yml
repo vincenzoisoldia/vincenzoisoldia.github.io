@@ -3,15 +3,6 @@
 # "detail" accetta Markdown, es. [testo del link](https://...).
 
 conferences:
-  - date: Nov 2026
-    title: Mini-Workshop on Riemann Surfaces
-    where: MPI MiS
-    status: Upcoming
-
-  - date: Nov 2026
-    title: Invitation to AI for Math Workshop
-    where: MPI MiS
-    status: Upcoming
 
   - date: Sep 2026
     title: Quasi-flats of intermediate dimension in higher rank
