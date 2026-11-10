@@ -36,6 +36,7 @@ permalink: /teaching/
 ## Reading groups
 
 ### {{ rg.name }}
+{: #reading-group}
 
 {{ rg.description | markdownify }}
 
