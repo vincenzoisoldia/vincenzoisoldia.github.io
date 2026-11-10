@@ -26,14 +26,28 @@ layout: default
 
 {% if site.data.news.size > 0 %}
 <h2>News</h2>
+{% assign news_shown = 4 %}
 <ul class="entries">
-  {% for n in site.data.news %}
+  {% for n in site.data.news limit: news_shown %}
   <li class="entry">
     <span class="entry-date">{{ n.date }}</span>
     <div>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
   </li>
   {% endfor %}
 </ul>
+{% if site.data.news.size > news_shown %}
+<details class="materials-box older-news">
+  <summary>Older news <span class="count">{{ site.data.news.size | minus: news_shown }}</span></summary>
+  <ul class="entries">
+    {% for n in site.data.news offset: news_shown %}
+    <li class="entry">
+      <span class="entry-date">{{ n.date }}</span>
+      <div>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
+    </li>
+    {% endfor %}
+  </ul>
+</details>
+{% endif %}
 {% endif %}
 
 {% assign posts = site.posts | slice: 0, 3 %}

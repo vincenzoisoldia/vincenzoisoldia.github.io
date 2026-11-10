@@ -1,6 +1,12 @@
 # News (appaiono nella pagina About, sotto il testo), dal più recente.
 # Campi: date, text. "text" accetta Markdown, es. [testo del link](https://...)
 # oppure un link a una pagina del sito, es. [Teaching & co.](/teaching/).
+# In homepage si vedono le prime 4; le altre finiscono nella tendina "Older news".
+
+- date: Nov 2026
+  text: >-
+    I gave a talk titled *Stable coexistence in ecologies and games* at the
+    Seminar on Nonlinear Algebra, MPI MiS.
 
 - date: Oct 2026
   text: >-
