@@ -11,3 +11,6 @@ Before starting my Ph.D., I was a pre-doctoral fellow at the [Max Planck Institu
 
 I received my M.Sc. in Mathematics from the [University of Trento](https://www.unitn.it/en), with a thesis on Schur apolarity and secant varieties of flag varieties, supervised by Prof. [Alessandra Bernardi](https://sites.google.com/unitn.it/alessandra-bernardi/home) and Dr. [Stefano Canino](https://sites.google.com/view/stefanocanino/home-page). I obtained my B.Sc. from the [University of Milan](https://www.unimi.it/en), with a final seminar on plane algebraic curves and Plücker formulas.
 
+
+<p class="name-note"><strong>A note on my name.</strong> Although everybody calls me Vincenzo (and I very much prefer it!), my first name is actually <em>Vincenzo Antonio</em>. Yes, Antonio is not a middle name. :)
+So whenever you use my name for anything official, such as citing a paper, bookings, or forms, please use the full <em>Vincenzo Antonio Isoldi</em>.</p>

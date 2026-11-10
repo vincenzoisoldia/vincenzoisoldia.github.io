@@ -164,6 +164,13 @@ main.wrap > :last-child > :last-child { margin-bottom: 0; }
 .intro-role { margin: 0.25rem 0 0; color: var(--muted); }
 .intro-role a { color: inherit; }
 .intro-role a:hover { color: var(--accent); }
+.name-note {
+  margin-top: 1.5rem;
+  padding: 0.6rem 0.9rem;
+  border-left: 3px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.95rem;
+}
 .intro-hint {
   margin: 0.45rem 0 0;
   color: var(--muted);
