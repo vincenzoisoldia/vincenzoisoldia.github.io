@@ -6,7 +6,8 @@ layout: default
     <img src="{{ site.author.photo | relative_url }}" alt="Portrait of {{ site.author.name }}" width="600" height="600">
   </div>
   <div class="intro-text">
-    <h1 class="intro-name">{{ site.author.name }}</h1>
+    {% comment %} The star is drawn by CSS, so it never shows up in search results. {% endcomment %}
+    <h1 class="intro-name">{{ site.author.name | replace: "Antonio", "Antonio<a class='name-star' href='#name-note' aria-label='A note on my name' data-nosnippet></a>" }}</h1>
     <p class="intro-role">
       {{ site.author.role }}<br>
       <a href="{{ site.author.affiliation_url }}">{{ site.author.affiliation }}</a><br>
@@ -47,3 +48,6 @@ layout: default
   {% endfor %}
 </ul>
 {% endif %}
+
+<p class="name-note" id="name-note"><strong>A note on my name.</strong> Although everybody calls me Vincenzo (and I very much prefer it!), my first name is actually <em>Vincenzo Antonio</em>. Yes, Antonio is not a middle name. :)
+So whenever you use my name for anything official, such as citing a paper, bookings, or forms, please use the full <em>Vincenzo Antonio Isoldi</em>.</p>

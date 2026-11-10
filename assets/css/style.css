@@ -164,13 +164,37 @@ main.wrap > :last-child > :last-child { margin-bottom: 0; }
 .intro-role { margin: 0.25rem 0 0; color: var(--muted); }
 .intro-role a { color: inherit; }
 .intro-role a:hover { color: var(--accent); }
+/* Footnote-style note on the About page, linked from the star in the name.
+   Stars are CSS-generated, so they never appear in search results. */
 .name-note {
-  margin-top: 1.5rem;
-  padding: 0.6rem 0.9rem;
-  border-left: 3px solid var(--rule);
+  position: relative;
+  margin-top: 1.2rem; /* + the last news entry's padding = the gap to the footer */
+  padding-top: 0.9rem;
   color: var(--muted);
   font-size: 0.95rem;
 }
+.name-note::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3rem;
+  height: 1px;
+  background: var(--rule);
+}
+.name-note strong::before,
+.name-star::after {
+  content: "\273B";
+  color: var(--accent);
+}
+.name-note strong::before { margin-right: 0.3em; }
+.name-star {
+  font-size: 0.55em;
+  vertical-align: super;
+  margin-left: 0.05em;
+  text-decoration: none;
+}
+.name-star:hover { text-decoration: none; opacity: 0.7; }
 .intro-hint {
   margin: 0.45rem 0 0;
   color: var(--muted);
