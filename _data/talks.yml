@@ -8,11 +8,12 @@
 - date: Nov 2026
   title: Stable coexistence in ecologies and games
   event: CSBD Math Seminar, MPI-CBG
-  status: Upcoming
+  slides: /files/talks/2026-11-stable_coexistence_in_ecologies_and_games_2.pdf
 
 - date: Nov 2026
   title: Stable coexistence in ecologies and games
   event: Seminar on Nonlinear Algebra, MPI MiS
+  slides: /files/talks/2026-11-stable_coexistence_in_ecologies_and_games_1.pdf
 
 - date: Mar 2026
   title: "Flag varieties: from minimal orbits to a dual Terracini lemma"
@@ -25,13 +26,12 @@
 - date: Feb 2026
   title: Secant varieties of flag varieties
   event: PhD Selection Week, MPI-CBG
-  poster: /files/talks/2026-02-secant-varieties-poster.pdf
-  slides: /files/talks/2026-02-secant-varieties-lightning-talk.pdf
+  poster: /files/talks/2026-02-secant_varieties_poster.pdf
 
 - date: Feb 2026
   title: Tensors and their geometry
   event: Mathematical Structures and Applications Group Seminars, MPI-CBG
-  slides: /files/talks/2026-02-tensors-and-their-geometry.pdf
+  slides: /files/talks/2026-02-tensors_and_their_geometry.pdf
 
 - date: Jul 2025
   title: Geometric constrained variational calculus
@@ -44,12 +44,12 @@
 - date: Oct 2024
   title: Noether's normalization and homotopy continuation
   event: Seminar for Computational Algebra, University of Trento
-  slides: /files/talks/2024-10-noether-normalization.pdf
+  slides: /files/talks/2024-10-noether_normalization.pdf
 
 - date: Sep 2024
   title: The algebraic geometry of tensor decomposition
   event: Baby Steps Beyond the Horizon, Będlewo
-  slides: /files/talks/2024-09-tensor-decomposition.pdf
+  slides: /files/talks/2024-09-tensor_decomposition.pdf
 
 - date: Jun 2024
   title: Affine toric geometry
@@ -58,4 +58,4 @@
 - date: Feb 2024
   title: Pattern formation in a model of acute inflammation
   event: Seminar for Mathematical Biology, University of Trento
-  slides: /files/talks/2024-02-acute-inflammation.pdf
+  slides: /files/talks/2024-02-acute_inflammation.pdf

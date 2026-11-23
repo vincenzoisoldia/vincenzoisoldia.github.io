@@ -5,8 +5,8 @@
 #   2. aggiungi sotto al corso:
 #        materials:
 #          - title: Problem set 1
-#            file: /files/teaching/nome-del-file.pdf
-#            solutions: /files/teaching/nome-soluzioni.pdf   (facoltativo)
+#            file: /files/teaching/nome_del_file.pdf
+#            solutions: /files/teaching/nome_soluzioni.pdf   (facoltativo)
 
 - year: 2025/2026
   courses:
@@ -16,41 +16,41 @@
       materials_note: Weekly exercise sheets (in Italian), written with Adriano Breggia.
       materials:
         - title: Sheet 1 (2 Oct 2025)
-          file: /files/teaching/analysis-3/sheet-1.pdf
-          solutions: /files/teaching/analysis-3/sheet-1-solutions.pdf
+          file: /files/teaching/analysis_3/sheet_1.pdf
+          solutions: /files/teaching/analysis_3/sheet_1_solutions.pdf
         - title: Sheet 2 (9 Oct 2025)
-          file: /files/teaching/analysis-3/sheet-2.pdf
-          solutions: /files/teaching/analysis-3/sheet-2-solutions.pdf
+          file: /files/teaching/analysis_3/sheet_2.pdf
+          solutions: /files/teaching/analysis_3/sheet_2_solutions.pdf
         - title: Sheet 3 (16 Oct 2025)
-          file: /files/teaching/analysis-3/sheet-3.pdf
-          solutions: /files/teaching/analysis-3/sheet-3-solutions.pdf
+          file: /files/teaching/analysis_3/sheet_3.pdf
+          solutions: /files/teaching/analysis_3/sheet_3_solutions.pdf
         - title: Sheet 4 (23 Oct 2025)
-          file: /files/teaching/analysis-3/sheet-4.pdf
-          solutions: /files/teaching/analysis-3/sheet-4-solutions.pdf
+          file: /files/teaching/analysis_3/sheet_4.pdf
+          solutions: /files/teaching/analysis_3/sheet_4_solutions.pdf
         - title: Sheet 5 (30 Oct 2025)
-          file: /files/teaching/analysis-3/sheet-5.pdf
-          solutions: /files/teaching/analysis-3/sheet-5-solutions.pdf
+          file: /files/teaching/analysis_3/sheet_5.pdf
+          solutions: /files/teaching/analysis_3/sheet_5_solutions.pdf
         - title: Sheet 6 (6 Nov 2025)
-          file: /files/teaching/analysis-3/sheet-6.pdf
-          solutions: /files/teaching/analysis-3/sheet-6-solutions.pdf
+          file: /files/teaching/analysis_3/sheet_6.pdf
+          solutions: /files/teaching/analysis_3/sheet_6_solutions.pdf
         - title: Sheet 7 (13 Nov 2025)
-          file: /files/teaching/analysis-3/sheet-7.pdf
-          solutions: /files/teaching/analysis-3/sheet-7-solutions.pdf
+          file: /files/teaching/analysis_3/sheet_7.pdf
+          solutions: /files/teaching/analysis_3/sheet_7_solutions.pdf
         - title: Sheet 8 (20 Nov 2025)
-          file: /files/teaching/analysis-3/sheet-8.pdf
-          solutions: /files/teaching/analysis-3/sheet-8-solutions.pdf
+          file: /files/teaching/analysis_3/sheet_8.pdf
+          solutions: /files/teaching/analysis_3/sheet_8_solutions.pdf
         - title: Sheet 9 (27 Nov 2025)
-          file: /files/teaching/analysis-3/sheet-9.pdf
-          solutions: /files/teaching/analysis-3/sheet-9-solutions.pdf
+          file: /files/teaching/analysis_3/sheet_9.pdf
+          solutions: /files/teaching/analysis_3/sheet_9_solutions.pdf
         - title: Sheet 10 (4 Dec 2025)
-          file: /files/teaching/analysis-3/sheet-10.pdf
-          solutions: /files/teaching/analysis-3/sheet-10-solutions.pdf
+          file: /files/teaching/analysis_3/sheet_10.pdf
+          solutions: /files/teaching/analysis_3/sheet_10_solutions.pdf
         - title: Sheet 11 (12 Dec 2025)
-          file: /files/teaching/analysis-3/sheet-11.pdf
-          solutions: /files/teaching/analysis-3/sheet-11-solutions.pdf
+          file: /files/teaching/analysis_3/sheet_11.pdf
+          solutions: /files/teaching/analysis_3/sheet_11_solutions.pdf
         - title: Sheet 12 (18 Dec 2025)
-          file: /files/teaching/analysis-3/sheet-12.pdf
-          solutions: /files/teaching/analysis-3/sheet-12-solutions.pdf
+          file: /files/teaching/analysis_3/sheet_12.pdf
+          solutions: /files/teaching/analysis_3/sheet_12_solutions.pdf
 
     - title: Geometry and Linear Algebra
       where: Department of Information Engineering and Computer Science, University of Trento
@@ -59,25 +59,25 @@
       materials_note: MATLAB lab sessions, written with Francesco Giuseppe De Vitis.
       materials:
         - title: MATLAB session 1
-          file: /files/teaching/geometry-linear-algebra/matlab-session-1.pdf
+          file: /files/teaching/geometry_linear_algebra/matlab_session_1.pdf
         - title: MATLAB session 2
-          file: /files/teaching/geometry-linear-algebra/matlab-session-2.pdf
+          file: /files/teaching/geometry_linear_algebra/matlab_session_2.pdf
         - title: MATLAB session 3
-          file: /files/teaching/geometry-linear-algebra/matlab-session-3.pdf
+          file: /files/teaching/geometry_linear_algebra/matlab_session_3.pdf
         - title: MATLAB session 4
-          file: /files/teaching/geometry-linear-algebra/matlab-session-4.pdf
+          file: /files/teaching/geometry_linear_algebra/matlab_session_4.pdf
         - title: MATLAB session 5
-          file: /files/teaching/geometry-linear-algebra/matlab-session-5.pdf
+          file: /files/teaching/geometry_linear_algebra/matlab_session_5.pdf
         - title: MATLAB session 6
-          file: /files/teaching/geometry-linear-algebra/matlab-session-6.pdf
-          extra: /files/teaching/geometry-linear-algebra/matlab-session-6-addendum.pdf
+          file: /files/teaching/geometry_linear_algebra/matlab_session_6.pdf
+          extra: /files/teaching/geometry_linear_algebra/matlab_session_6_addendum.pdf
           extra_label: addendum
         - title: MATLAB session 7
-          file: /files/teaching/geometry-linear-algebra/matlab-session-7.pdf
+          file: /files/teaching/geometry_linear_algebra/matlab_session_7.pdf
         - title: MATLAB session 8
-          file: /files/teaching/geometry-linear-algebra/matlab-session-8.pdf
+          file: /files/teaching/geometry_linear_algebra/matlab_session_8.pdf
         - title: MATLAB session 9
-          file: /files/teaching/geometry-linear-algebra/matlab-session-9.pdf
+          file: /files/teaching/geometry_linear_algebra/matlab_session_9.pdf
 
 - year: 2024/2025
   courses:
