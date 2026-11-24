@@ -16,6 +16,6 @@ permalink: /activities/
 
 {% include entries.html items=site.data.activities.outreach %}
 
-## Honors and fellowships
+## Honors, awards, and fellowships
 
 {% include entries.html items=site.data.activities.awards %}
