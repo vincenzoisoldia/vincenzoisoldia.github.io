@@ -68,26 +68,32 @@ conferences:
     title: "Masterclass: Algebraic Vision and Multifocal Tensors"
     where: University of Trento
 
-outreach:
-  - date: Mar 2026
-    title: Il giro del mondo in 80 Prodotti
-    where: Trento
-    detail: Co-organized interactive booths on the history of multiplication for Pi Day.
+service:
+  - date: 2026–
+    title: Teichmüller Theory Reading Group
+    where: MPI MiS
+    detail: Co-organized with Laura Lankers. The schedule is on the [Teaching & co.](/teaching/#reading_group) page.
 
   - date: Oct 2025
     title: TensorDay 2025
     where: University of Trento
     detail: Co-organized with the TensorDec Laboratory.
 
-  - date: Apr 2025
-    title: "Fuori dall'ombra: Panchine Rosse"
-    where: University of Trento
-    detail: Co-organized the *Matilda effect* section.
-
   - date: Dec 2024
     title: TensorDay 2024
     where: University of Trento
     detail: Co-organized with the TensorDec Laboratory.
+
+outreach:
+  - date: Mar 2026
+    title: Il giro del mondo in 80 Prodotti
+    where: Trento
+    detail: Co-organized interactive booths on the history of multiplication for Pi Day.
+
+  - date: Apr 2025
+    title: "Fuori dall'ombra: Panchine Rosse"
+    where: University of Trento
+    detail: Co-organized the *Matilda effect* section.
 
 awards:
   - date: "2026"

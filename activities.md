@@ -8,7 +8,11 @@ permalink: /activities/
 
 {% include entries.html items=site.data.activities.conferences %}
 
-## Service and outreach
+## Service
+
+{% include entries.html items=site.data.activities.service %}
+
+## Outreach
 
 {% include entries.html items=site.data.activities.outreach %}
 

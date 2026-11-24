@@ -31,6 +31,18 @@ permalink: /teaching/
 {% endfor %}
 {% endfor %}
 
+{% if site.data.mentoring.size > 0 %}
+## Mentoring
+
+{% for m in site.data.mentoring %}
+<div class="course">
+  <span class="course-title">{{ m.name }}</span><span class="entry-detail">, {{ m.role }}{% if m.date %}, {{ m.date }}{% endif %}</span>
+  {% if m.project %}<p>Project: {{ m.project }}</p>{% endif %}
+  {% if m.supervisor %}<p>Main supervisor: {{ m.supervisor }}</p>{% endif %}
+</div>
+{% endfor %}
+{% endif %}
+
 {% assign rg = site.data.reading_group %}
 {% if rg.name != "" %}
 ## Reading groups
