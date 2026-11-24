@@ -15,7 +15,7 @@ math: true
     {% if p.status %}<span class="tag">{{ p.status }}</span>{% endif %}
     <span class="entry-links">
       {% if p.arxiv %}<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv:{{ p.arxiv }}</a>{% endif %}
-      {% if p.pdf %}<a href="{{ p.pdf | relative_url }}">pdf</a>{% endif %}
+      {% if p.pdf %}<a href="{{ p.pdf | relative_url }}">PDF</a>{% endif %}
     </span>
   </li>
 {% endfor %}

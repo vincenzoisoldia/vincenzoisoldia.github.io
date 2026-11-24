@@ -20,8 +20,8 @@ permalink: /teaching/
       {% for m in c.materials %}
       <li>
         <a href="{{ m.file | relative_url }}">{{ m.title }}</a>
-        {% if m.solutions %} · <a href="{{ m.solutions | relative_url }}">solutions</a>{% endif %}
-        {% if m.extra %} · <a href="{{ m.extra | relative_url }}">{{ m.extra_label | default: "extra" }}</a>{% endif %}
+        {% if m.solutions %} · <a href="{{ m.solutions | relative_url }}">Solutions</a>{% endif %}
+        {% if m.extra %} · <a href="{{ m.extra | relative_url }}">{{ m.extra_label | default: "Extra" }}</a>{% endif %}
       </li>
       {% endfor %}
     </ul>
@@ -47,7 +47,7 @@ permalink: /teaching/
     <span class="entry-date">{{ m.date }}</span>
     <div>
       <span class="entry-title">{{ m.topic }}</span>{% if m.speaker %}<span class="entry-detail">, {{ m.speaker }}</span>{% endif %}
-      {% if m.notes %}<span class="entry-links"><a href="{{ m.notes | relative_url }}">notes</a></span>{% endif %}
+      {% if m.notes %}<span class="entry-links"><a href="{{ m.notes | relative_url }}">Notes</a></span>{% endif %}
       {% if m.note %}<p class="entry-detail">{{ m.note }}</p>{% endif %}
     </div>
   </li>

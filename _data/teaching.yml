@@ -58,25 +58,25 @@
       note: Taught in English
       materials_note: MATLAB lab sessions, written with Francesco Giuseppe De Vitis.
       materials:
-        - title: MATLAB session 1
+        - title: Session 1 (25 Sep 2025)
           file: /files/teaching/geometry_linear_algebra/matlab_session_1.pdf
-        - title: MATLAB session 2
+        - title: Session 2 (2 Oct 2025)
           file: /files/teaching/geometry_linear_algebra/matlab_session_2.pdf
-        - title: MATLAB session 3
+        - title: Session 3 (9 Oct 2025)
           file: /files/teaching/geometry_linear_algebra/matlab_session_3.pdf
-        - title: MATLAB session 4
+        - title: Session 4 (16 Oct 2025)
           file: /files/teaching/geometry_linear_algebra/matlab_session_4.pdf
-        - title: MATLAB session 5
+        - title: Session 5 (23 Oct 2025)
           file: /files/teaching/geometry_linear_algebra/matlab_session_5.pdf
-        - title: MATLAB session 6
+        - title: Session 6 (6 Nov 2025)
           file: /files/teaching/geometry_linear_algebra/matlab_session_6.pdf
           extra: /files/teaching/geometry_linear_algebra/matlab_session_6_addendum.pdf
-          extra_label: addendum
-        - title: MATLAB session 7
+          extra_label: Addendum
+        - title: Session 7 (13 Nov 2025)
           file: /files/teaching/geometry_linear_algebra/matlab_session_7.pdf
-        - title: MATLAB session 8
+        - title: Session 8 (20 Nov 2025)
           file: /files/teaching/geometry_linear_algebra/matlab_session_8.pdf
-        - title: MATLAB session 9
+        - title: Session 9 (27 Nov 2025)
           file: /files/teaching/geometry_linear_algebra/matlab_session_9.pdf
 
 - year: 2024/2025

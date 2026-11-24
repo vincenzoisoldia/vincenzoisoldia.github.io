@@ -10,9 +10,9 @@
       <span class="entry-title">{{ e.title }}</span>{% if e.event or e.where %}<span class="entry-detail">, {{ e.event | default: e.where }}</span>{% endif %}{% if e.status %} <span class="tag">{{ e.status }}</span>{% endif %}
       {% if e.slides or e.poster or e.notes %}
       <span class="entry-links">
-        {% if e.slides %}<a href="{{ e.slides | relative_url }}">slides</a>{% endif %}
-        {% if e.poster %}<a href="{{ e.poster | relative_url }}">poster</a>{% endif %}
-        {% if e.notes %}<a href="{{ e.notes | relative_url }}">notes</a>{% endif %}
+        {% if e.slides %}<a href="{{ e.slides | relative_url }}">Slides</a>{% endif %}
+        {% if e.poster %}<a href="{{ e.poster | relative_url }}">Poster</a>{% endif %}
+        {% if e.notes %}<a href="{{ e.notes | relative_url }}">Notes</a>{% endif %}
       </span>
       {% endif %}
       {% if e.detail %}<p class="entry-detail">{{ e.detail | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endif %}
