@@ -1,8 +1,7 @@
 # Studenti seguiti come mentor (appaiono nella pagina Teaching & co.), dal più recente.
 # Campi: date, name, role (ruolo e istituto), project, supervisor (facoltativi gli ultimi due).
 
-- date: 2026–
-  name: Martin Scheuermann
-  role: Intern, MPI-CBG
+- name: Martin Scheuermann
+  role: Intern at MPI-CBG
   project: Stable coexistence in ecological networks
   supervisor: Prof. Türkü Özlüm Çelik
