@@ -1,7 +1,9 @@
 # Studenti seguiti come mentor (appaiono nella pagina Teaching & co.), dal più recente.
-# Campi: date, name, role (ruolo e istituto), project, supervisor (facoltativi gli ultimi due).
+# Campi: year (anno accademico), name, role (ruolo e istituto), project, supervisor (facoltativi gli ultimi due).
+# Gli studenti con lo stesso "year" finiscono sotto lo stesso titolo "A.Y. ...", come i corsi.
 
-- name: Martin Scheuermann
+- year: 2026/2027
+  name: Martin Scheuermann
   role: Intern at MPI-CBG
   project: Stable coexistence in ecological networks
   supervisor: Prof. Türkü Özlüm Çelik

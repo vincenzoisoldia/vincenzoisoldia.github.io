@@ -34,12 +34,17 @@ permalink: /teaching/
 {% if site.data.mentoring.size > 0 %}
 ## Mentoring
 
-{% for m in site.data.mentoring %}
+{% assign mentoring_years = site.data.mentoring | group_by: "year" %}
+{% for y in mentoring_years %}
+### A.Y. {{ y.name }}
+
+{% for m in y.items %}
 <div class="course">
-  <span class="course-title">{{ m.name }}</span><span class="entry-detail">, {{ m.role }}{% if m.date %}, {{ m.date }}{% endif %}</span>
+  <span class="course-title">{{ m.name }}</span><span class="entry-detail">, {{ m.role }}</span>
   {% if m.project %}<p>Project: {{ m.project }}</p>{% endif %}
   {% if m.supervisor %}<p>Main supervisor: {{ m.supervisor }}</p>{% endif %}
 </div>
+{% endfor %}
 {% endfor %}
 {% endif %}
 
